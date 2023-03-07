@@ -1,4 +1,7 @@
-**Читати на інших мовах: [Русский](README.md), [Українська](README.ua.md).**
+![preview](./screenshots/NodeJS-hw1-1.jpg)
+![preview](./screenshots/NodeJS-hw1-2.jpg)
+![preview](./screenshots/NodeJS-hw1-3.jpg)
+![preview](./screenshots/NodeJS-hw1-4.jpg)
 
 # Домашнє завдання 1
 
