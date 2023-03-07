@@ -1,0 +1,26 @@
+{
+  "name": "goit-nodejs-course-homework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Valeriia789/goit-nodejs-course-homework.git"
+  },
+  "author": "Valeriia Taran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Valeriia789/goit-nodejs-course-homework/issues"
+  },
+  "homepage": "https://github.com/Valeriia789/goit-nodejs-course-homework#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "commander": "^10.0.0",
+    "nanoid": "^3.3.4"
+  }
+}
+
