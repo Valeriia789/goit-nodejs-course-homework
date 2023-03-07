@@ -1,7 +1,7 @@
 const fs = require("fs").promises;
 const path = require("path");
-const {nanoid} = require ('nanoid');
-const colors = require('colors')
+const { nanoid } = require("nanoid");
+const colors = require("colors");
 
 const contactsPath = path.join("db", "contacts.json");
 
@@ -28,7 +28,6 @@ const getContactById = async (contactId) => {
       console.log(colors.bgRed(`User with id ${contactId} was not found`));
       return;
     }
-
   } catch (err) {
     console.log(err.message);
   }

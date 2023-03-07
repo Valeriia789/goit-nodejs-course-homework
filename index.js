@@ -1,5 +1,5 @@
 // const readline = require('readline')
-const {program} = require('commander')
+const { program } = require("commander");
 
 const {
   listContacts,
@@ -19,7 +19,6 @@ program
   .option("-n, --name <type>", "user name")
   .option("-e, --email <type>", "user email")
   .option("-p, --phone <type>", "user phone");
-
 
 program.parse(process.argv);
 
@@ -46,7 +45,7 @@ const invokeAction = async ({ action, id, name, email, phone }) => {
     default:
       console.warn("\x1B[31m Unknown action type!");
   }
-}
+};
 
 invokeAction(argv);
 
